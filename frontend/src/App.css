@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App-header {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.playlist-list {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.playlist-preview {
+  padding: 20px;
+  background-color: #212121;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 0 0 auto;
+  min-width: 300px;
+  min-height: 230px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.playlist-preview:hover {
+  background-color: #b3b3b3;
+}
+
+.playlist-preview h2 {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+  font-size: 20px;
+}
+
+#title-color {
+  color: #1DB954;
+}
+
+.project-button {
+  color: #1DB954;
+  background-color: #121212;
+  box-shadow: none;
+  border: 1px solid #1DB954;
+  min-height: 30px;
+  min-width: 80px;
+  padding: 10px;
+}
+
+.project-button:hover {
+  color: #ffffff;
+  background-color: #1DB954;
+}
+
+.songs-container {
+  display: flex;
+  gap: 20px;
+}
+
+.playlist-songs,
+.recommended-songs {
+  flex: 1;
+}
+
+.tracks-preview {
+  display: flex;
+  background-color: #212121;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tracks-preview p {
+  margin: 0;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.song-color-change {
+  color: #b3b3b3;
+}
+
+.playlist-songs h1,
+.recommended-songs h1{
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.playlist-songs {
+  padding-right: 20px;
+  width: 50%;
+}
+
+.playlist-songs h1 {
+  margin-bottom: 10px;
+}
+
+.recommended-songs {
+  padding-left: 20px;
+  width: 50%;
+}
+
+.recommended-songs h1 {
+  margin-bottom: 10px;
+}
