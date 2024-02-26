@@ -27,7 +27,6 @@ npm run start
 ```
 
 ## Usage
-This is where you'll want to show off more of the advanced features of your project. Think of this as the larger reference manual, or the comphrehensive technical documentation.
 
 1. **Sign In**: Users begin by signing into PlaylistPilot using their Spotify account credentials. This ensures that the app can access their playlists and track features to generate personalized recommendations
 2. **Playlist Selection**: Upon signing in, users are presented with a list of their created playlists. They can choose a playlist they wish to see new song recommendations
